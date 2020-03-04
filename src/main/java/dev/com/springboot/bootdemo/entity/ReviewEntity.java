@@ -13,8 +13,8 @@ public class ReviewEntity {
     public class Review {
         @Id
         private Long id;
-        private String productId;
         private String userId;
+        private String productId;
         private String profileName;
         private Integer helpfulnessNumerator;
         private Integer helpfulnessDenominator;
