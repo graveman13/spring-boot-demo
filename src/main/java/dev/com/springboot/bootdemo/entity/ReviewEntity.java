@@ -16,8 +16,8 @@ public class ReviewEntity {
         private String userId;
         private String productId;
         private String profileName;
-        private Integer helpfulnessNumerator;
         private Integer helpfulnessDenominator;
+        private Integer helpfulnessNumerator;
         private Integer score;
         private LocalDate time;
         private String summary;
